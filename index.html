@@ -3,17 +3,21 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Borderlight Entertainment</title>
-        <meta name="application-name" content="orderlight Entertainment"/>
-        <meta name="description" content="TODO: WRITE UP SITE DESCRIPTION">
-        <meta name="viewport" content="width=device-width, initial-scale=1"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <title>Borderlight Entertainment | Broadway Label</title>
+        <meta name="application-name" content="Borderlight Entertainment"/>
+        <meta property="og:title" content="Borderlight Entertainment" />
+        <meta name="description" content="Clever description about the business. This will be seen in search engine results, among other things."/>
+		<meta property="og:description" content="Clever description about the business. This will be seen in search engine results, among other things." /> 
 		<meta name="msapplication-TileColor" content="#FFFFFF" />
 		<meta name="msapplication-TileImage" content="http://<?php echo $_SERVER['SERVER_NAME']; ?>mstile-144x144.png" />
 		<meta name="msapplication-square70x70logo" content="http://<?php echo $_SERVER['SERVER_NAME']; ?>mstile-70x70.png" />
 		<meta name="msapplication-square150x150logo" content="http://<?php echo $_SERVER['SERVER_NAME']; ?>mstile-150x150.png" />
 		<meta name="msapplication-wide310x150logo" content="http://<?php echo $_SERVER['SERVER_NAME']; ?>mstile-310x150.png" />
 		<meta name="msapplication-square310x310logo" content="http://<?php echo $_SERVER['SERVER_NAME']; ?>mstile-310x310.png" />
-        
+		
+		<link rel='shortcut icon' type='image/x-icon' href="http://<?php echo $_SERVER['SERVER_NAME']; ?>favicon.ico" >
         <link rel="apple-touch-icon-precomposed" sizes="57x57" href="http://<?php echo $_SERVER['SERVER_NAME']; ?>apple-touch-icon-57x57.png" />
 		<link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://<?php echo $_SERVER['SERVER_NAME']; ?>apple-touch-icon-114x114.png" />
 		<link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://<?php echo $_SERVER['SERVER_NAME']; ?>apple-touch-icon-72x72.png" />
@@ -27,30 +31,278 @@
 		<link rel="icon" type="image/png" href="http://<?php echo $_SERVER['SERVER_NAME']; ?>favicon-32x32.png" sizes="32x32" />
 		<link rel="icon" type="image/png" href="http://<?php echo $_SERVER['SERVER_NAME']; ?>favicon-16x16.png" sizes="16x16" />
 		<link rel="icon" type="image/png" href="http://<?php echo $_SERVER['SERVER_NAME']; ?>favicon-128.png" sizes="128x128" />
+		<meta property="og:image" content="http://<?php echo $_SERVER['SERVER_NAME']; ?>favicon-196x196.png" />
 
 		<link rel="stylesheet" href="fonts/fonts.css">
 		
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/foundation.min.css">
         <link rel="stylesheet" href="css/styles.css">
-    </head>
+        
+        <link rel="stylesheet" type="text/css" href="css/test/artists/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/test/artists/demo.css" />
+		<link rel="stylesheet" type="text/css" href="css/test/artists/layout-simple.css" />
+		
+	</head>
     
     <body>
-<!--[if lt IE 8]>
-<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-<![endif]-->
+		<!--[if lt IE 8]>
+			<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve 				your experience.</p>
+		<![endif]-->
+		
+		<div id="container">
+		
+			<content class="pt-wrapper">
+			
+			<div id="logo"><a href="http://comingsoon.danetheory.com/" class="siteLogo"><img src="../images/logo.jpg" alt="logo"></a></div>
+				
+				<menu class="clearfix">
+				
+					<ul id="mainNav">
+						
+						<li class="social">
+							<div id="fb">
+								<a href="http://comingsoon.danetheory.com/" class="socialicon" target="_blank"><img src="../images/facebook.png" alt="Facebook"></a>
+							</div>
+							<div id="tw">
+								<a href="http://comingsoon.danetheory.com/" class="socialicon" target="_blank"><img src="../images/twitter.png" alt="Twitter"></a>
+							</div>
+						</li>
+						
+						<li data-menuanchor="home" class="clearfix active">
+							<a href="#home" class="pt-trigger" data-animation="1"> <title>HOME</title> <span><subtitle>HOME</subtitle></span></a>
+						</li>
+						<li data-menuanchor="about" class="clearfix">
+							<a href="#about" class="pt-trigger" data-animation="2"> <title>ABOUT</title> <span><subtitle>ABOUT</subtitle></span></a>
+						</li>
+						<li data-menuanchor="project-treecat" class="clearfix">
+							<a href="#project-treecat" class="pt-trigger" data-animation="3"> <title>PROJECT TREECAT</title> <span><subtitle>PROJECT TREECAT</subtitle></span></a>
+						</li>
+						<li data-menuanchor="artists" class="clearfix">
+							<a href="#artists" class="pt-trigger" data-animation="4"> <title>ARTISTS</title> <span><subtitle>ARTISTS</subtitle></span></a>
+						</li>
+						<li data-menuanchor="shop" class="clearfix">
+							<a href="#shop" class="pt-trigger" data-animation="5"> <title>SHOP</title> <span><subtitle>SHOP</subtitle></span></a>
+						</li>
+						<li data-menuanchor="news" class="clearfix">
+							<a href="#news" class="pt-trigger" data-animation="6"> <title>NEWS</title> <span><subtitle>NEWS</subtitle></span></a>
+						</li>
+						<li data-menuanchor="contact" class="clearfix">
+							<a href="#contact" class="pt-trigger" data-animation="7"> <title>CONTACT</title> <span><subtitle>CONTACT</subtitle></span></a>
+						</li>
 
-        <h1>BORDERLIGHT ENTERTAINMENT</h1>
-    
-<script src="scripts/vendor/modernizr-2.8.3.min.js"></script>
-<script src="scripts/vendor/prefixfree.min.js"></script>
-<script src="scripts/vendor/jquery.js"></script>
-<script src="scripts/vendor/foundation.min.js"></script>
-<script src="scripts/vendor/plugins.js"></script>
+					</ul>
+					
+				</menu>
+		
+		<div id="pagepiling">
+			<div class="section">	
+				<div class="slide-content"></div>
+							
+								<div style="width: 1920px; height: 1080px;" data-vide-bg="mp4: video/mp4/ocean, webm: video/webm/ocean, ogv: video/ogv/ocean, poster: video/poster/ocean"></div>
+					
+<!-- 					<img src="../images/page-1/bkg-1.jpg" data-rand="3" class="background" width="1920" height="1080"> -->
+				
+			</div>
+	
+			<div class="section">	
+				<div class="slide-content"></div>
+				<div class="background-holder">
+					<img src="../images/page-2/bg.jpg" class="background" width="1920" height="1080">
+					<div class="coverUp background" width="1920" height="1080"></div>
+				</div>
+			</div>
+	
+			<div class="section">	
+				<div class="slide-content"></div>
+				<div class="background-holder">
+					<img src="../images/page-3/bg3.jpg" class="background" width="1920" height="1080">
+					<div class="coverUp background" width="1920" height="1080"></div>
+				</div>
+			</div>
+	
+			<div class="section">	
+				<div class="slide-content"></div>
+				<div class="background-holder">
+					
+<!--
+					<div class="row fullWidth">
+						<div class="featuredName small-12 small-centered medium-12 medium-centered large-12 large-centered columns">
+							<h1>FEATURED ARTIST</h1>
+							<h2>Eden Espinosa</h2>									
+						</div>
+					</div>
+					<div class="row">
+						<div id="featuredArtist" class="small-12 small-centered medium-12 medium-centered large-12 large-centered columns">
+							<div class="featuredContainer">
+								<img src="../images/artists/featured/eden.jpg">
+							</div>	
+						</div>
+					</div>
+-->
+		<div id="container" class="container">
+			<header class="intro">
+				<img class="intro__image" src="images/test/artists/featured/eden.jpg" alt="Iceland galcier"/>
+				<div class="intro__content">
+					<h1 class="intro__title">FEATURED ARTIST</h1>
+					<div class="intro__subtitle">
+						<div class="intro__description">
+							Eden Espinosa
+						</div>
+						<button class="trigger">
+						
+							<svg width="100%" height="100%" viewBox="0 0 60 60" preserveAspectRatio="none">
+								<g class="icon icon--grid">
+									<rect x="32.5" y="5.5" width="22" height="22"/>
+									<rect x="4.5" y="5.5" width="22" height="22"/>
+									<rect x="32.5" y="33.5" width="22" height="22"/>
+									<rect x="4.5" y="33.5" width="22" height="22"/>
+								</g>
+								<g class="icon icon--cross">
+									<line x1="4.5" y1="55.5" x2="54.953" y2="5.046"/>
+									<line x1="54.953" y1="55.5" x2="4.5" y2="5.047"/>
+								</g>
+							</svg>
+							<span>View All Artists</span>
+						</button>
+					</div>
+				</div><!-- /intro__content -->
+			</header><!-- /intro -->
+			<section class="items-wrap">
+				<a href="#" class="item">
+					<img class="item__image" src="images/test/artists/item01.jpg" alt="item01"/>
+					<h2 class="item__title">Artist 1</h2>
+				</a>
+				<a href="#" class="item">
+					<img class="item__image" src="images/test/artists/item02.jpg" alt="item02"/>
+					<h2 class="item__title">Artist 2</h2>
+				</a>
+				<a href="#" class="item">
+					<img class="item__image" src="images/test/artists/item03.jpg" alt="item03"/>
+					<h2 class="item__title">Artist 3</h2>
+				</a>
+				<a href="#" class="item">
+					<img class="item__image" src="images/test/artists/item04.jpg" alt="item04"/>
+					<h2 class="item__title">Artist 4</h2>
+				</a>
+				<a href="#" class="item">
+					<img class="item__image" src="images/test/artists/item05.jpg" alt="item05"/>
+					<h2 class="item__title">Artist 5</h2>
+				</a>
+				<a href="#" class="item">
+					<img class="item__image" src="images/test/artists/item06.jpg" alt="item06"/>
+					<h2 class="item__title">Artist 6</h2>
+				</a>
+				<a href="#" class="item">
+					<img class="item__image" src="images/test/artists/item07.jpg" alt="item07"/>
+					<h2 class="item__title">Artist 7</h2>
+				</a>
+				<a href="#" class="item">
+					<img class="item__image" src="images/test/artists/item08.jpg" alt="item08"/>
+					<h2 class="item__title">Artist 8</h2>
+				</a>
+				<a href="#" class="item">
+					<img class="item__image" src="images/test/artists/item09.jpg" alt="item09"/>
+					<h2 class="item__title">Artist 9</h2>
+				</a>
+				<a href="#" class="item">
+					<img class="item__image" src="images/test/artists/item10.jpg" alt="item10"/>
+					<h2 class="item__title">Artist 10</h2>
+				</a>
+				<a href="#" class="item">
+					<img class="item__image" src="images/test/artists/item11.jpg" alt="item11"/>
+					<h2 class="item__title">Artist 11</h2>
+				</a>
+				<a href="#" class="item">
+					<img class="item__image" src="images/test/artists/item12.jpg" alt="item12"/>
+					<h2 class="item__title">Artist 12</h2>
+				</a>
+			</section>
+		</div><!-- /container -->
+		<script src="scripts/test/artists/classie.js"></script>
+		<script>
+			(function() {
+				var container = document.getElementById( 'container' ),
+					trigger = container.querySelector( 'button.trigger' );
 
-<script src="scripts/scripts.js"></script>
+				function toggleContent() {
+					if( classie.has( container, 'container--open' ) ) {
+						classie.remove( container, 'container--open' );
+						classie.remove( trigger, 'trigger--active' );
+						window.addEventListener( 'scroll', noscroll );
+					}
+					else {
+						classie.add( container, 'container--open' );
+						classie.add( trigger, 'trigger--active' );
+						window.removeEventListener( 'scroll', noscroll );
+					}
+				}
+
+				function noscroll() {
+					window.scrollTo( 0, 0 );
+				}
+
+				// reset scrolling position
+				document.body.scrollTop = document.documentElement.scrollTop = 0;
+
+				// disable scrolling
+				window.addEventListener( 'scroll', noscroll );
+
+				trigger.addEventListener( 'click', toggleContent );
+
+				// For Demo purposes only (prevent jump on click)
+				[].slice.call( document.querySelectorAll('.items-wrap a') ).forEach( function(el) { el.onclick = function() { return false; } } );
+			})();
+		</script>
+
+					
+					<div class="coverUp background" width="1920" height="1080"></div>
+				</div>
+			</div>
+	
+			<div class="section">	
+				<div class="slide-content"></div>
+				<div class="background-holder">
+					<img src="../images/page-5/bkg-5.jpg" class="background" width="1920" height="1080">
+					<div class="coverUp background" width="1920" height="1080"></div>
+				</div>
+			</div>
+	
+			<div class="section">	
+				<div class="slide-content"></div>
+				<div class="background-holder">
+					<img src="../images/page-6/bkg-6.jpg" class="background" width="1920" height="1080">
+					<div class="coverUp background" width="1920" height="1080"></div>
+				</div>
+			</div>
+			
+			<div class="section">	
+				<div class="slide-content"></div>
+				<div class="background-holder">
+					<img src="../images/page-6/bkg-6.jpg" class="background" width="1920" height="1080">
+					<div class="coverUp background" width="1920" height="1080"></div>
+				</div>
+			</div>
+		</div>
+
+	</content>
+	</div>
+
+<script type="text/javascript" src="scripts/vendor/prefixfree.min.js"></script>
+<script type="text/javascript" src="scripts/vendor/modernizr.js"></script> 
+<script type="text/javascript" src="scripts/vendor/jquery.js"></script>
+<script type="text/javascript" src="scripts/vendor/foundation.min.js"></script>
+<script type="text/javascript" src="scripts/libs/preload.js"></script>
+<!-- <script type="text/javascript" src="scripts/libs/transition.js"></script> -->
+
+<script type="text/javascript" src="scripts/libs/vide.js"></script>
+
+<script type="text/javascript" src="scripts/libs/plugins.js"></script>
+
+<script type="text/javascript" src="scripts/scripts.js"></script>
         
 <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+<!--
 	<script>
     	(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
         function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
@@ -60,6 +312,7 @@
         ga('create','UA-XXXXX-X','auto');ga('send','pageview');
     </script>
     
+-->
     </body>
 
 </html>

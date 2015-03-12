@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'manifestoregular';
+    src: url('MANIFESTO-webfont.eot');
+    src: url('MANIFESTO-webfont.eot?#iefix') format('embedded-opentype'),
+         url('MANIFESTO-webfont.woff2') format('woff2'),
+         url('MANIFESTO-webfont.woff') format('woff'),
+         url('MANIFESTO-webfont.ttf') format('truetype'),
+         url('MANIFESTO-webfont.svg#manifestoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
